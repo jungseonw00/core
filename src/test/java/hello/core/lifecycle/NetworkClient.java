@@ -29,7 +29,6 @@ public class NetworkClient {
         System.out.println("close = " + url);
     }
 
-    // 의존관계 주입이 끝나면 호출해 주겠다.
     @PostConstruct
     public void init() {
         System.out.println("NetworkClient.init");

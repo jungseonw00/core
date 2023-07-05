@@ -41,6 +41,7 @@ public class SingletonWithPrototypeTest1 {
     @Scope("singleton")
     static class ClientBean {
 
+        // DL 정도의 기능만 제공
         @Autowired
         private Provider<PrototypeBean> prototypeBeanProvider;
 
